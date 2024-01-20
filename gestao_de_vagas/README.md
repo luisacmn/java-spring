@@ -9,7 +9,7 @@
 - Create the `CandidateController.java` file in the "controllers" folder to implement the method for creating a candidate and returning information.
 - Utilize Lombok library with `@Data` annotation for automatic generation of getters and setters.
 - Test the application by running it.
-- Use Postman to perform a POST request with fictitious user data in JSON format.
+- Use Postman to perform a POST request with user data in JSON format.
 
 ## Data Validation
 
