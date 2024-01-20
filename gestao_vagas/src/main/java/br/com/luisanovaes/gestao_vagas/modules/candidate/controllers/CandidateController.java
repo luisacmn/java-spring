@@ -12,8 +12,8 @@ import jakarta.validation.Valid;
 @RequestMapping("/candidate")
 public class CandidateController {
 
-    @PostMapping("/")               //Definir tipo do método
-    public void create(@Valid @RequestBody CandidateEntity candidateEntity) {          //método para criar candidato
+    @PostMapping("/")               
+    public void create(@Valid @RequestBody CandidateEntity candidateEntity) {          
         System.out.println("Candidato ");
         System.out.println(candidateEntity.getEmail());
     }
